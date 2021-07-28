@@ -1,0 +1,57 @@
+/* header-area-style */
+
+/* font-family: 'Poppins', sans-serif; */
+
+.row{
+    margin-bottom: 40px;
+}
+#header{
+    background-color: #264653;
+    /* height: 600px; */
+}
+.header-title{
+    margin-top: 50px; 
+}
+#header p,h2{
+    color: white;
+}
+.btn-color{
+    background-color: #E76F51;
+    color: white;
+}
+.img-area img{
+    Width :552px;
+    Height:447px; 
+    margin-Top:153px; 
+    margin-bottom: 90px;
+}
+
+/* featured-bikes-section-style-strat */
+#feature-area h2{
+    color: black;
+}
+#feature-area p{
+    color:#E76F51 ;
+}
+img{
+    margin-bottom: 50px;
+}
+.featured-img img{
+    width: 288px;
+    height: 243px;
+    /* margin-bottom: 45px; */
+}
+.featured-img img.g-scale{
+    filter: grayscale(100%);
+}
+.featured-img img.g-scale:hover{
+    transition: 1.2s;
+    filter: grayscale(0%);
+}
+
+
+
+
+
+
+
