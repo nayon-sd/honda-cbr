@@ -57,8 +57,11 @@ img{
     filter: grayscale(0%);
 }
 /* client-say-section-style */
-#client .orange-color{
+ .orange-color{
     color: #E76F51;
+}
+#client{
+    margin-bottom: 100px;
 }
 #client .card-width{
     width: 323px;
@@ -78,6 +81,24 @@ img{
 #client .name-color{
     color: #23A6F0;
 }
-
-
-
+/* faq-section-style */
+#faq img.img-size{
+    width: 433px;
+    height: auto;
+}
+.accordion-item {
+    margin-bottom: 30px;
+}
+.accordion-item .item-inner{
+   border-top:  1px solid rgba(0,0,0,.125);
+}
+#faq p.faq-title{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #383838;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+}
