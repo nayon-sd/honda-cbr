@@ -1,23 +1,31 @@
 /* header-area-style */
 
 /* font-family: 'Poppins', sans-serif; */
-
+body{
+    font-family:'Poppins', sans-serif ;
+}
 .row{
     margin-bottom: 40px;
 }
 #header{
     background-color: #264653;
-    /* height: 600px; */
 }
 .header-title{
     margin-top: 50px; 
 }
-#header p,h2{
+.header-title p{
+    font-size: 16px;
+    font-weight: 300;
+} 
+#header .header-title .header-p{
     color: white;
 }
 .btn-color{
     background-color: #E76F51;
     color: white;
+}
+.nodal-body p.modal-text{
+    color: black;
 }
 .img-area img{
     Width :552px;
@@ -48,10 +56,28 @@ img{
     transition: 1.2s;
     filter: grayscale(0%);
 }
-
-
-
-
+/* client-say-section-style */
+#client .orange-color{
+    color: #E76F51;
+}
+#client .card-width{
+    width: 323px;
+}
+#client img.img-rounded{
+    width: 149px;
+    height: 149px;
+    margin-top: 45px;
+    border-radius: 80px;
+}
+#client .icon-bg-color{
+    color: #E76F51;
+}
+#client .icon-border{
+    color: black;
+}
+#client .name-color{
+    color: #23A6F0;
+}
 
 
 
