@@ -31,18 +31,28 @@ a{
     color: black;
 }
 .img-area img{
-    Width :552px;
+    Width :525px;
     Height:447px; 
     margin-Top:153px; 
     margin-bottom: 90px;
 }
 
-/* featured-bikes-section-style-strat */
+/* featured-area-section-style-strat */
 #feature-area h2{
     color: black;
 }
 #feature-area p{
     color:#E76F51 ;
+}
+#feature-area p::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: #E76F51;
+    width: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 img{
     margin-bottom: 50px;
@@ -84,6 +94,7 @@ img{
 #client .name-color{
     color: #23A6F0;
 }
+
 /* faq-section-style */
 #faq img.img-size{
     width: 433px;
@@ -105,6 +116,7 @@ img{
 .accordion-button:not(.collapsed) {
     color: black;
 }
+
 /* team-member-section-style */
 #team h2.team-title{
     margin-top: 80px;
@@ -172,9 +184,22 @@ img{
 	position: relative;
   }
 
-
-
-
-
-
+/* footer-section-style */
+#footer{
+    background-color: black;
+}
+#footer a{
+    color: white;
+}
+#footer small#copyright{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    color: white;
+}
+#footer .item-margin{
+    margin-top: 60px;
+}
+#footer .row{
+    margin-bottom: 0;
+}
 
