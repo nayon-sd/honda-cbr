@@ -1,12 +1,15 @@
-/* header-area-style */
-
-/* font-family: 'Poppins', sans-serif; */
+/* reuseable-element */
 body{
     font-family:'Poppins', sans-serif ;
 }
 .row{
     margin-bottom: 40px;
 }
+a{
+    text-decoration: none;
+}
+
+/* header-area-style */
 #header{
     background-color: #264653;
 }
@@ -102,3 +105,76 @@ img{
 .accordion-button:not(.collapsed) {
     color: black;
 }
+/* team-member-section-style */
+#team h2.team-title{
+    margin-top: 80px;
+}
+
+/* Services-section-style */
+.services-item {
+	padding: 20px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 15px 0;
+	box-shadow: 0 0 12px #F4F4F4;
+	transition: all 0.3s ease-in-out 0s;
+	background-color: gray;
+  }
+  #services h2{
+      margin-top: 70px;
+      margin-bottom: 40px;
+  }
+  .services-item .icon {
+	border: 1px solid #f1f1f1;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 0 auto;
+	transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .services-item .icon i {
+	font-size: 30px;
+	color: #F63854;
+	line-height: 70px;
+	transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .services-item .services-content h3 {
+	margin-top: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+  }
+  
+  .services-item .services-content h3 a {
+	font-size: 16px;
+    color:black;
+  }
+  
+  .services-item .services-content h3 a:hover {
+	color: #F63854;
+  }
+  
+  .services-item:hover {
+	box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+  }
+  
+  .services-item:hover .icon {
+	background: #F63854;
+  }
+  
+  .services-item:hover .icon i {
+	color: #fff;
+  }
+  
+  #service {
+	position: relative;
+  }
+
+
+
+
+
+
+
